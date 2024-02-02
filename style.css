@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins';
+}
+
+.kartuabcd {
+    width: 300px;
+    height: 250px;
+    background: white;
+    transition: .2s;
+}
+
+/* p.fs-3 {
+    color: #00985B;
+} */
+
+.kartuabcd:hover {
+    color: white;
+    background: linear-gradient(127.18deg, #00FF99 -1.29%, #00985B 105.45%);
+}
+
+.card {
+    margin-top: 3rem;
+    transition: .5s;
+}
+
+.card:hover {
+    background: linear-gradient(127.18deg, #00FF99 -1.29%, #00985B 105.45%);
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
+
+footer li {
+    font-weight: 600;
+    transition: .2s;
+}
+
+footer a:hover {
+    color:#00985B;
+}
